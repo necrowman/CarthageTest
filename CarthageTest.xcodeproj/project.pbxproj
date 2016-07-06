@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		445D2A371D2D76EB00C5846A /* CarthageTest-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 445D2A361D2D76EB00C5846A /* CarthageTest-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		445D2A3E1D2D772E00C5846A /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445D2A3D1D2D772E00C5846A /* Source.swift */; };
-		445D2A401D2D783700C5846A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D2A3F1D2D783700C5846A /* Alamofire.framework */; };
+		445D2A421D2D7DD300C5846A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D2A411D2D7DD300C5846A /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,7 +17,7 @@
 		445D2A361D2D76EB00C5846A /* CarthageTest-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarthageTest-iOS.h"; sourceTree = "<group>"; };
 		445D2A381D2D76EB00C5846A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		445D2A3D1D2D772E00C5846A /* Source.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
-		445D2A3F1D2D783700C5846A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		445D2A411D2D7DD300C5846A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,7 +25,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				445D2A401D2D783700C5846A /* Alamofire.framework in Frameworks */,
+				445D2A421D2D7DD300C5846A /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,7 +35,7 @@
 		445D2A271D2D76C500C5846A = {
 			isa = PBXGroup;
 			children = (
-				445D2A3F1D2D783700C5846A /* Alamofire.framework */,
+				445D2A411D2D7DD300C5846A /* Alamofire.framework */,
 				445D2A3C1D2D771400C5846A /* Source */,
 				445D2A351D2D76EB00C5846A /* CarthageTest-iOS */,
 				445D2A341D2D76EB00C5846A /* Products */,
@@ -301,6 +301,7 @@
 				445D2A3B1D2D76EB00C5846A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

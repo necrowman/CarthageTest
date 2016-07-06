@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "445D2A321D2D76EB00C5846A"
-               BuildableName = "CarthageTest-iOS.framework"
+               BuildableName = "CarthageTest.framework"
                BlueprintName = "CarthageTest-iOS"
                ReferencedContainer = "container:CarthageTest.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "445D2A321D2D76EB00C5846A"
-            BuildableName = "CarthageTest-iOS.framework"
+            BuildableName = "CarthageTest.framework"
             BlueprintName = "CarthageTest-iOS"
             ReferencedContainer = "container:CarthageTest.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "445D2A321D2D76EB00C5846A"
-            BuildableName = "CarthageTest-iOS.framework"
+            BuildableName = "CarthageTest.framework"
             BlueprintName = "CarthageTest-iOS"
             ReferencedContainer = "container:CarthageTest.xcodeproj">
          </BuildableReference>
