@@ -10,6 +10,13 @@
 		445D2A371D2D76EB00C5846A /* CarthageTest-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 445D2A361D2D76EB00C5846A /* CarthageTest-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		445D2A3E1D2D772E00C5846A /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445D2A3D1D2D772E00C5846A /* Source.swift */; };
 		445D2A421D2D7DD300C5846A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D2A411D2D7DD300C5846A /* Alamofire.framework */; };
+		445D2A4A1D2D80B400C5846A /* Boilerplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D2A431D2D80B400C5846A /* Boilerplate.framework */; };
+		445D2A4B1D2D80B400C5846A /* Event.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D2A441D2D80B400C5846A /* Event.framework */; };
+		445D2A4C1D2D80B400C5846A /* ExecutionContext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D2A451D2D80B400C5846A /* ExecutionContext.framework */; };
+		445D2A4D1D2D80B400C5846A /* Foundation3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D2A461D2D80B400C5846A /* Foundation3.framework */; };
+		445D2A4E1D2D80B400C5846A /* Future.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D2A471D2D80B400C5846A /* Future.framework */; };
+		445D2A4F1D2D80B400C5846A /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D2A481D2D80B400C5846A /* Result.framework */; };
+		445D2A501D2D80B400C5846A /* RunLoop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D2A491D2D80B400C5846A /* RunLoop.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +25,13 @@
 		445D2A381D2D76EB00C5846A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		445D2A3D1D2D772E00C5846A /* Source.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
 		445D2A411D2D7DD300C5846A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		445D2A431D2D80B400C5846A /* Boilerplate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Boilerplate.framework; path = Carthage/Build/iOS/Boilerplate.framework; sourceTree = "<group>"; };
+		445D2A441D2D80B400C5846A /* Event.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Event.framework; path = Carthage/Build/iOS/Event.framework; sourceTree = "<group>"; };
+		445D2A451D2D80B400C5846A /* ExecutionContext.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExecutionContext.framework; path = Carthage/Build/iOS/ExecutionContext.framework; sourceTree = "<group>"; };
+		445D2A461D2D80B400C5846A /* Foundation3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation3.framework; path = Carthage/Build/iOS/Foundation3.framework; sourceTree = "<group>"; };
+		445D2A471D2D80B400C5846A /* Future.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Future.framework; path = Carthage/Build/iOS/Future.framework; sourceTree = "<group>"; };
+		445D2A481D2D80B400C5846A /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		445D2A491D2D80B400C5846A /* RunLoop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RunLoop.framework; path = Carthage/Build/iOS/RunLoop.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +39,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				445D2A4A1D2D80B400C5846A /* Boilerplate.framework in Frameworks */,
+				445D2A4B1D2D80B400C5846A /* Event.framework in Frameworks */,
+				445D2A4C1D2D80B400C5846A /* ExecutionContext.framework in Frameworks */,
+				445D2A4D1D2D80B400C5846A /* Foundation3.framework in Frameworks */,
+				445D2A4E1D2D80B400C5846A /* Future.framework in Frameworks */,
+				445D2A4F1D2D80B400C5846A /* Result.framework in Frameworks */,
+				445D2A501D2D80B400C5846A /* RunLoop.framework in Frameworks */,
 				445D2A421D2D7DD300C5846A /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,6 +56,13 @@
 		445D2A271D2D76C500C5846A = {
 			isa = PBXGroup;
 			children = (
+				445D2A431D2D80B400C5846A /* Boilerplate.framework */,
+				445D2A441D2D80B400C5846A /* Event.framework */,
+				445D2A451D2D80B400C5846A /* ExecutionContext.framework */,
+				445D2A461D2D80B400C5846A /* Foundation3.framework */,
+				445D2A471D2D80B400C5846A /* Future.framework */,
+				445D2A481D2D80B400C5846A /* Result.framework */,
+				445D2A491D2D80B400C5846A /* RunLoop.framework */,
 				445D2A411D2D7DD300C5846A /* Alamofire.framework */,
 				445D2A3C1D2D771400C5846A /* Source */,
 				445D2A351D2D76EB00C5846A /* CarthageTest-iOS */,
